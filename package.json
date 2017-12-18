@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Wallet Friends",
   "main": "./public/js/app.js",
-  "repository": "",
+  "repository": "https://github.com/diegopscode/wallet-friends.git",
   "author": "Diego Pancera dos Santos",
   "license": "MIT",
   "scripts": {
