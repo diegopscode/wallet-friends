@@ -1,0 +1,27 @@
+.list-group {
+
+    .list-group-item {
+        padding: 10px;
+
+        border-radius: 3px;
+        border: 1px solid #242424;
+        color: #F5F5F5;
+        background-color: $deep-purple;
+
+        display: block;
+        margin-bottom: 5px;
+
+        transition: all .15s ease-in-out;
+
+        display: flex;
+        justify-content: space-between;
+
+        &:hover {
+            background-color: rgba(103, 58, 183, 0.8);
+        }
+    }
+
+    a {
+        color: #333;
+    }
+}

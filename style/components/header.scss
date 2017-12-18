@@ -1,0 +1,29 @@
+header {
+    background: $deep-purple;
+
+    nav {        
+        a {
+            color: $white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    }
+
+    .menu-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 60px;
+    }
+    
+    .menu-item a {
+        padding: 15px;
+
+        transition: all .2s;
+
+        &:hover {
+            background-color: rgba(255,255,255,.2);
+        }
+    }
+}

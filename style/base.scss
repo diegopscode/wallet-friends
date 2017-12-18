@@ -1,0 +1,52 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+
+    background-color: #263238;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px; 
+    margin: 0 auto; 
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.space-default {
+    padding: 40px 0;
+}
+
+.container-page {
+    padding: 30px 15px;
+
+    h1 {
+        text-transform: uppercase;
+        color: $deep-purple;
+        margin-bottom: 10px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .content-header {
+        position: relative;
+        margin-bottom: 30px;
+
+        .actions {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            display: flex;
+            margin: 0 -5px;
+
+            & > * {
+                margin: 0 5px;
+            }
+        }
+    }
+}
