@@ -1,6 +1,6 @@
-# React Quick Start
+# Wallet Friends
 
-Getting Start React Application
+Wallet created in React.
 
 ### Instalação
 <pre>
